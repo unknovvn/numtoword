@@ -13,7 +13,7 @@ Languages implemented:
 You should already have [Go installed](https://golang.org/doc/install).
 
 ```bash
-go get -u github.com/unknovvn/numberConverter
+go get -u github.com/unknovvn/numtoword
 ```
 
 ## Usage
