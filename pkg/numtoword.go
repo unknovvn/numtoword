@@ -4,23 +4,16 @@ import (
 	"github.com/unknovvn/numtoword/internal/english"
 	"github.com/unknovvn/numtoword/internal/lithuanian"
 	"github.com/unknovvn/numtoword/internal/polish"
+	"github.com/unknovvn/numtoword/pkg/language"
 )
 
-type Language uint16
-
-const (
-	English Language = iota
-	Polish
-	Lithuanian
-)
-
-func Convert(number int64, language Language) string {
-	switch language {
-	case English:
+func Convert(number int64, lang language.Language) string {
+	switch lang {
+	case language.English:
 		return english.NumToWord(number)
-	case Polish:
+	case language.Polish:
 		return polish.NumToWord(number)
-	case Lithuanian:
+	case language.Lithuanian:
 		return lithuanian.NumToWord(number)
 	default:
 		return ""
