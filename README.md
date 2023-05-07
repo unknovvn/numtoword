@@ -4,7 +4,7 @@ Package which converts number to text
 
 Languages implemented:
 
-- [ ] English
+- [x] English
 - [ ] Polish
 - [ ] Lithuanian
 
