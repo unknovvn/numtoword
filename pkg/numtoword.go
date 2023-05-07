@@ -7,6 +7,11 @@ import (
 	"github.com/unknovvn/numtoword/pkg/language"
 )
 
+// Converts number to word for specified language
+//
+// Supported languages are provided in github.com/unknovvn/numtoword/pkg/language
+//
+// Returns empty string if invalid language provided.
 func Convert(number int64, lang language.Language) string {
 	switch lang {
 	case language.English:
