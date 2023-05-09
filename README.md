@@ -5,8 +5,8 @@ Package which converts number to text
 Languages implemented:
 
 - [x] English
+- [x] Lithuanian
 - [ ] Polish
-- [ ] Lithuanian
 
 ## Installation
 

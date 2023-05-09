@@ -1,6 +1,6 @@
 package english
 
-type Scale struct {
+type scale struct {
 	Value int64
 	Name  string
 }

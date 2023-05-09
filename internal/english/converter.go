@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-var scales_biggest_to_smallest = []Scale{
+var scales_biggest_to_smallest = []scale{
 	{Value: 1_000_000_000_000_000_000, Name: "quintillion"},
 	{Value: 1_000_000_000_000_000, Name: "quadrillion"},
 	{Value: 1_000_000_000_000, Name: "trillion"},
