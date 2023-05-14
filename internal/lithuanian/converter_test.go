@@ -3,8 +3,8 @@ package lithuanian_test
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/unknovvn/numtoword/internal/lithuanian"
+	"github.com/unknovvn/numtoword/test/assert"
 )
 
 func TestNumToWord_CorrectlyConvertsPlusMinusNineteen(t *testing.T) {
