@@ -3,8 +3,8 @@ package polish_test
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/unknovvn/numtoword/internal/polish"
+	"github.com/unknovvn/numtoword/test/assert"
 )
 
 func TestNumToWord_CorrectlyConvertsPlusMinusNineteen(t *testing.T) {
