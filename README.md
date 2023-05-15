@@ -2,11 +2,13 @@
 
 Package which converts number to text
 
-Languages implemented:
+# Supported languages
 
-- [x] English
-- [x] Lithuanian
-- [x] Polish
+| Flag | Language                         |
+| ---- | -------------------------------- |
+| 🇺🇸   | English                 			|
+| 🇱🇹   | Lithuanian                       |
+| 🇵🇱   | Polish                           |
 
 ## Installation
 
